@@ -1,0 +1,21 @@
+{
+    "name": "link0/database",
+    "description": "DDD-style wrapper for database interaction (like exceptions)",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Link0\\Database\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Dennis de Greef",
+            "email": "github@link0.net"
+        }
+    ],
+    "require": {},
+    "require-dev": {
+        "phpunit/phpunit": "^5.7"
+    }
+}
